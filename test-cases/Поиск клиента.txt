@@ -1,0 +1,49 @@
+Поиск по First Name
+1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+2. Кликнуть по кнопке "Customers"
+3. Ввести Hermoine
+5. Обратитить внимание на результат
+
+Ожидаемый результат:
+В результате все пользователи только с First Name Hermoine
+
+Приоритет: 
+Высокий
+
+Поиск по Last Name
+1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+2. Кликнуть по кнопке "Customers"
+3. Ввести Granger
+5. Обратитить внимание на результат
+
+Ожидаемый результат:
+В результате все пользователи только с Last Name Granger
+
+Приоритет: 
+Высокий
+
+Поиск по Post Code
+1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+2. Кликнуть по кнопке "Customers"
+3. Ввести Granger
+5. Обратитить внимание на результат
+
+Ожидаемый результат:
+В результате все пользователи только с Post Code Granger
+
+Приоритет: 
+Высокий 
+
+Поиск по Account Number
+1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+2. Кликнуть по кнопке "Customers"
+3. Ввести 1001 1002 1003 1016
+5. Обратитить внимание на результат
+
+Ожидаемый результат:
+В результате все пользователи только с Account Number Code 1001 1002 1003 1016
+
+Приоритет: 
+Высокий
+
+

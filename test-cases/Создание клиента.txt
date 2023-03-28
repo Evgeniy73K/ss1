@@ -1,0 +1,61 @@
+Успешное создание покупателя
+1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+2. Кликнуть по кнопке "Add customer"
+3. Заполнить поля тестовыми данными
+First Name : Test
+Last Name : Test
+Post Code : 123
+4. Кликнуть по кнопке Add customer
+5. Обратить внимание на alert
+6. Закрыть alert
+7. Перейти на страницу Customers
+8. Убедиться в создании Customer
+Ожидаемый результат:
+есть алерт, пользователь добавлен в таблицу
+
+Приоритет: 
+Высокий
+
+Проверка обязательного поля First Name
+1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+2. Кликнуть по кнопке "Add customer"
+3. Заполнить поля тестовыми данными
+First Name : 
+Last Name : Test
+Post Code : 123
+4. Кликнуть по кнопке Add customer
+5. Обратить внимание на сообщение об ошибке
+
+Ожидаемый результат:
+Требование: "Заполнить это поле"
+
+Приоритет: 
+средний
+
+Проверка обязательного поля Last Name
+1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+2. Кликнуть по кнопке "Add customer"
+3. Заполнить поля тестовыми данными
+First Name :Test
+Last Name : 
+Post Code : 123
+4. Кликнуть по кнопке Add customer
+5. Обратить внимание на сообщение об ошибке
+
+Ожидаемый результат:
+Требование: "Заполнить это поле"
+
+Приоритет: 
+средний
+
+Отправка пустой формы
+1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
+2. Кликнуть по кнопке "Add customer"
+3. Кликнуть по кнопке Add customer
+4. Обратить внимание на сообщение об ошибке
+
+Ожидаемый результат:
+Требование: "Заполнить это поле"
+
+Приоритет: 
+средний
