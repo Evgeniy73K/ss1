@@ -64,11 +64,13 @@ public class SearchTest extends BaseTest{
         for (int i = 1; i < listPage.getAccList().size(); i++){
             values.add(listPage.getAccList().get(i).getText());
         }
-        for (int i = 0; i<values.size(); i++){
-            if(!Objects.equals(values.get(i), accValue)){
+        int i = 0;
+        do {
+            if (!values.get(i).equals(accValue)) {
                 result = false;
             }
-        }
+            i--;}
+            while (i < values.size());
         Assert.assertTrue(result, "Объект не найден");
     }
 
