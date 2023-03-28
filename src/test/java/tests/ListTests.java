@@ -22,7 +22,7 @@ import java.util.List;
 public class ListTests extends BaseTest{
 
     @Test
-    public void sortByNameDescTest(){
+    public void sortByNameDescTestTK9(){
         Comparator<String> comparator = Collections.reverseOrder();
         bankingProjectPage.clickCustomersButton();
         listPage.fNameSort();
@@ -36,7 +36,7 @@ public class ListTests extends BaseTest{
     }
 
     @Test
-    public void sortByNameAscTest(){
+    public void sortByNameAscTestTK10(){
         bankingProjectPage.clickCustomersButton();
         listPage.fNameSort();
         listPage.fNameSort();

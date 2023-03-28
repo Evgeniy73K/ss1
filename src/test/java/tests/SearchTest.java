@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Epic;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,7 +20,7 @@ import java.util.*;
 public class SearchTest extends BaseTest{
 
     @Test
-    public void searchByfName(){
+    public void searchByfNameTK1(){
         String nameSearch = "Ron";
         Boolean result = true;
         bankingProjectPage.clickCustomersButton();
@@ -37,7 +38,7 @@ public class SearchTest extends BaseTest{
     }
 
     @Test
-    public void searchBylName(){
+    public void searchBylNameTK2(){
         String lNameSearch = "Weasly";
         Boolean result = true;
         bankingProjectPage.clickCustomersButton();
@@ -55,7 +56,7 @@ public class SearchTest extends BaseTest{
     }
 
     @Test
-    public void searchByAccTest(){
+    public void searchByAccTestTK4(){
         String accValue = "1007 1008 1009";
         Boolean result = true;
         bankingProjectPage.clickCustomersButton();

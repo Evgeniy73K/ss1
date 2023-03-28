@@ -1,4 +1,4 @@
-Сортировка по имени(убывание)
+Сортировка по имени(убыванию)(TK9)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Customers"
 3. Кликнуть по заголовку First Name
@@ -10,7 +10,8 @@
 Приоритет: 
 Высокий
 
-Сортировка по имени возврастание
+
+Сортировка по имени (возврастанию)(TK10)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Customers"
 3. Кликнуть по заголовку First Name 2 раза

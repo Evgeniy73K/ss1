@@ -1,4 +1,4 @@
-Поиск по First Name
+Поиск по First Name(TK_1)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Customers"
 3. Ввести Hermoine
@@ -10,31 +10,31 @@
 Приоритет: 
 Высокий
 
-Поиск по Last Name
+Поиск по Last Name (TK_2)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Customers"
 3. Ввести Granger
 5. Обратитить внимание на результат
 
 Ожидаемый результат:
-В результате все пользователи только с Last Name Granger
+В результате все пользователи, которые содержат в LastName Granger
 
 Приоритет: 
 Высокий
 
-Поиск по Post Code
+Поиск по Post Code (TK_3)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Customers"
-3. Ввести Granger
+3. Ввести E859AB
 5. Обратитить внимание на результат
 
 Ожидаемый результат:
-В результате все пользователи только с Post Code Granger
+В результате все пользователи только с Post Code E859AB
 
 Приоритет: 
 Высокий 
 
-Поиск по Account Number
+Поиск по Account Number (TK_4)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Customers"
 3. Ввести 1001 1002 1003 1016

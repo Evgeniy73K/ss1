@@ -1,4 +1,4 @@
-Успешное создание покупателя
+Успешное создание покупателя(TK5)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Add customer"
 3. Заполнить поля тестовыми данными
@@ -16,6 +16,7 @@ Post Code : 123
 Приоритет: 
 Высокий
 
+(TK6)
 Проверка обязательного поля First Name
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Add customer"
@@ -32,6 +33,7 @@ Post Code : 123
 Приоритет: 
 средний
 
+(TK7)
 Проверка обязательного поля Last Name
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Add customer"
@@ -48,6 +50,7 @@ Post Code : 123
 Приоритет: 
 средний
 
+(TK8)
 Отправка пустой формы
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Add customer"

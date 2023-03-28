@@ -18,7 +18,7 @@ import java.time.Duration;
 public class AddCustomerTests extends BaseTest{
 
     @Test
-    public void validAddCustomerTest() {
+    public void validAddCustomerTestTK5() {
         bankingProjectPage.clickAddCustomerButton();
         addCustPage.typeForm("Test",
                 "Test",
@@ -31,7 +31,7 @@ public class AddCustomerTests extends BaseTest{
     }
 
     @Test
-    public void emptyFnameFieldTest(){
+    public void emptyFnameFieldTestTK6(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         bankingProjectPage.clickAddCustomerButton();
         addCustPage.typeForm("",
@@ -48,7 +48,7 @@ public class AddCustomerTests extends BaseTest{
     }
 
     @Test
-    public void emptyLnameFieldTest() {
+    public void emptyLnameFieldTestTK7() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         bankingProjectPage.clickAddCustomerButton();
         addCustPage.typeForm("Test",
@@ -65,7 +65,7 @@ public class AddCustomerTests extends BaseTest{
     }
 
     @Test
-    public void emptyAllFieldsTest() {
+    public void emptyAllFieldsTestTK8() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         bankingProjectPage.clickAddCustomerButton();
         addCustPage.typeForm("",
