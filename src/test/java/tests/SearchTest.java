@@ -69,7 +69,7 @@ public class SearchTest extends BaseTest{
             if (!values.get(i).equals(accValue)) {
                 result = false;
             }
-            i--;}
+            i++;}
             while (i < values.size());
         Assert.assertTrue(result, "Объект не найден");
     }
