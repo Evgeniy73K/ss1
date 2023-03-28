@@ -1,24 +1,12 @@
 package tests;
 
-import io.qameta.allure.Epic;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import pageObject.AddCustPage;
-import pageObject.BankingProjectPage;
-import pageObject.ListPage;
-
-
-import java.time.Duration;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 public class SearchTest extends BaseTest{
-
     @Test
     public void searchByfNameTK1(){
         String nameSearch = "Ron";
@@ -74,5 +62,4 @@ public class SearchTest extends BaseTest{
             while (i < values.size());
         Assert.assertTrue(result, "Объект не найден");
     }
-
 }
