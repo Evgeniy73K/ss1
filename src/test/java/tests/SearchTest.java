@@ -45,7 +45,7 @@ public class SearchTest extends BaseTest{
 
     @Test
     public void searchByAccTestTK4(){
-        String accValue = "1007 1008 1009";
+        String accValue = "100710081009";
         Boolean result = true;
         bankingProjectPage.clickCustomersButton();
         listPage.searchUser(accValue);

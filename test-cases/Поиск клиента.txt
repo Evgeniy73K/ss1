@@ -37,7 +37,7 @@
 Поиск по Account Number (TK_4)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Customers"
-3. Ввести 1001 1002 1003 1016
+3. Ввести 1001100210031016
 5. Обратитить внимание на результат
 
 Ожидаемый результат:
