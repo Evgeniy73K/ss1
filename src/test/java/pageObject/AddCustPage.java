@@ -19,7 +19,7 @@ public class AddCustPage {
 
     @FindBy(xpath = "//button[@ng-class=\"btnClass3\"]")
     private WebElement customersButton;
-    @FindBy(xpath = "//button[@class=\"btn btn-default\"]")
+    @FindBy(css = ".btn.btn-default")
     private WebElement addCustomerFormButton;
 
     @Step("Заполнение формы")
