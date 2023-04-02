@@ -37,11 +37,11 @@
 Поиск по Account Number (TK_4)
 1. Открыть страницу https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 2. Кликнуть по кнопке "Customers"
-3. Ввести 1001100210031016
+3. Ввести 1001
 5. Обратитить внимание на результат
 
 Ожидаемый результат:
-В результате все пользователи только с Account Number Code 1001 1002 1003 1016
+В результате все пользователи только с Account Number Code 1001
 
 Приоритет: 
 Высокий

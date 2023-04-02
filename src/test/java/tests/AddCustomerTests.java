@@ -15,7 +15,7 @@ import pageObject.ListPage;
 
 import java.time.Duration;
 
-public class AddCustomerTests extends BaseTest{
+public class AddCustomerTests extends BaseTest {
 
     @Test
     public void validAddCustomerTestTK5() {
@@ -31,7 +31,7 @@ public class AddCustomerTests extends BaseTest{
     }
 
     @Test
-    public void emptyFnameFieldTestTK6(){
+    public void emptyFnameFieldTestTK6() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         bankingProjectPage.clickAddCustomerButton();
         addCustPage.typeForm("",

@@ -1,7 +1,9 @@
 package tests;
 
 import org.testng.TestNG;
+
 import java.util.List;
+
 public class TestRunner {
     public static void main(String[] args) {
         TestNG testng = new TestNG();

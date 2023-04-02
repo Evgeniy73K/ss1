@@ -16,6 +16,7 @@ public class BaseTest {
     protected AddCustPage addCustPage;
     protected BankingProjectPage bankingProjectPage;
     protected ListPage listPage;
+
     @BeforeMethod
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
@@ -28,6 +29,7 @@ public class BaseTest {
         bankingProjectPage = new BankingProjectPage(driver);
         listPage = new ListPage(driver);
     }
+
     @AfterMethod
     public void tearDown() {
         driver.quit();
