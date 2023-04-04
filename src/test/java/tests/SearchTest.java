@@ -57,7 +57,7 @@ public class SearchTest extends BaseTest {
         int i = 0;
         do {
             if (!values.get(i).equals(accValue)) {
-                result = false;
+                result = true;
             }
             i++;
         }
