@@ -17,11 +17,12 @@ public class BaseTest {
     protected BankingProjectPage bankingProjectPage;
     protected ListPage listPage;
 
+    @BeforeMethod
     public void setUp() {
+        String driverPath = "driver/chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", driverPath);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-        String driverPath = System.getProperty("driver") + "/chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", driverPath);
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -30,7 +31,6 @@ public class BaseTest {
         bankingProjectPage = new BankingProjectPage(driver);
         listPage = new ListPage(driver);
     }
-
 
     @AfterMethod
     public void tearDown() {
