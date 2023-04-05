@@ -26,7 +26,7 @@ public class AddCustomerTests extends BaseTest {
         addCustPage.sendForm();
         Alert alert = driver.switchTo().alert();
         String alertText = alert.getText();
-        Assert.assertTrue(alertText.contains("Customer added successfully with customer id"), "Сообщение не соответствует ожидаемому результату");
+        Assert.assertTrue(alertText.contains("Customer added successfully with c121ustomer id"), "Сообщение не соответствует ожидаемому результату");
         alert.accept();
     }
 
